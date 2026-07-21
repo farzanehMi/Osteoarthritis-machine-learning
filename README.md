@@ -1,4 +1,4 @@
-# Osteoarthritis-machine-learning
+# Knee-Osteoarthritis-Classification
 this project aims to analyze osteoarthritis-related data using machine learning techniques.
 
 # Status
