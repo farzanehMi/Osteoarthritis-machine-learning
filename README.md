@@ -114,6 +114,7 @@ Fine-tuning improved the model's ability to distinguish different osteoarthritis
 
 ```bash
 pip install -r requirements.txt
+```
 
 3. Open the notebook:
 Knee_OA_TransferLearning.ipynb
