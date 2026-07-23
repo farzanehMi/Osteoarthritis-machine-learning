@@ -83,14 +83,16 @@ Each experiment was evaluated using:
 
 ## Results
 
-The best performance was achieved by fine-tuning the pretrained ResNet18 model.
+Four experiments were conducted to compare different transfer learning strategies.
 
-The final experiment achieved approximately:
+| Experiment | Accuracy | Macro F1-score |
+|---|---:|---:|
+| Experiment 1 | 43.56% | 0.281 |
+| Experiment 2 | 31.98% | 0.308 |
+| Experiment 3 | 49.40% | 0.527 |
+| Experiment 4 | 50.11% | 0.559 |
 
-- Accuracy: ~50%
-- Macro F1-score: ~0.56
-
-Fine-tuning improved the model's ability to distinguish different osteoarthritis severity grades compared with training only the final classifier layer.
+The best performance was achieved by Experiment 4 using fine-tuning of the pretrained ResNet18 model.
 
 ---
 
